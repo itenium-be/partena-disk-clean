@@ -21,5 +21,6 @@ Get-ChildItem -Path 'C:\SfDevCluster\Data\ReplicatorLog\*' -Force | Remove-Item
 
 Get-ChildItem -Path 'C:\SfDevCluster\Log\Traces\*' -Force | Remove-Item
 Get-ChildItem -Path 'C:\SfDevCluster\Log\QueryTraces\*' -Force | Remove-Item
+Get-ChildItem -Path 'C:\SfDevCluster\Log\OperationalTraces\*' -Force | Remove-Item
 
 Start-Service FabricHostSvc
